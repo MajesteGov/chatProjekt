@@ -1,4 +1,4 @@
-const form = document.querySelector(".login form"),
+const form = document.querySelector(".login"),
     continueBtn = form.querySelector(".button input"),
     errorText = form.querySelector(".error-txt");
 
@@ -18,7 +18,7 @@ continueBtn.onclick = () => {
             console.log(data);
             if (data == "success") {
 
-                location.href = "chatRaum/public/index.html";
+                location.href = "index.html";
             }
             else {
                 errorText.textContent = data;
@@ -29,5 +29,4 @@ continueBtn.onclick = () => {
     }
     let formData = new FormData(form);
     xhr.send(formData);
-
 }

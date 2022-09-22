@@ -9,18 +9,15 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
+    display: block;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
     background: #f7f7f7;
 }
 
-.welcome{
-    background-image:url('php/images/Empfang-hintergrung.webp') ;
-}
-
 .wrapper {
+   
     background: #fff;
     width: 450px;
     border-radius: 16px;

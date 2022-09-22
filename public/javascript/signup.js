@@ -19,7 +19,7 @@ continueBtn.onclick = () => {
                 console.log(data);
                 if (data == "success") {
 
-                    location.href = "chatRaum/public/index.html";
+                    location.href = "public/index.html";
                 }
                 else {
                     errorText.textContent = data;
